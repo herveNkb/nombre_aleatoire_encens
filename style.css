@@ -1,0 +1,59 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Comic Sans MS", serif;
+}
+
+.title {
+    font-size: 72px;
+    text-align: center;
+    margin: 100px 0 200px;
+}
+
+.container {
+    text-align: center;
+}
+
+#texte, #citation {
+    font-size: 28px;
+}
+
+.text-auteur {
+    padding: 25px 0 100px;
+    font-size: 20px;
+}
+
+#button {
+    margin-top: 50px;
+    font-size: 36px;
+    border-radius: 50px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", serif;
+    border: none;
+    background: rebeccapurple;
+    color: cornsilk;
+}
+
+#button:hover {
+    background: #804dc5;
+    color: cornsilk;
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+}
