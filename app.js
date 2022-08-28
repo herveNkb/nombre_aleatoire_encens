@@ -109,7 +109,7 @@ function entierAleatoire(min, max) {
  
 button.addEventListener('click', () => {
     text.innerHTML =
-        'Pour un peu de détente et de sérénité, ça sera le '
+        'Pour un peu de détente et de sérénité, c\'est le '
         + entierAleatoire(1, 15) +
         ', qui doit être brûlé !'
     ;
