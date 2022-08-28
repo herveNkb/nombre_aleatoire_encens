@@ -107,6 +107,10 @@ let citations = [
         'Sans la littérature on ne saurait pas ce que pense un homme lorsqu\'il est seul.',
         'Georges Perros'
     ],
+    [
+        'Le fou, l\'amoureux et le poète sont farcis d\'imagination.',
+        'William Shakespare'
+    ],
 ];
 
 // Fonction générant un nbe aléatoire, mais grâce à 'Math.floor' il sera toujours un nbe entier
