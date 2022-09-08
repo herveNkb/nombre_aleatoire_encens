@@ -1,76 +1,87 @@
-*, ::before, ::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: "Comic Sans MS", serif;
-    background: rgb(1,0,36);
-    background: linear-gradient(90deg, rgba(1,0,36,1) 0%, rgba(48,9,121,1) 41%, rgba(120,0,255,1) 100%);
+  font-family: "Comic Sans MS", serif;
+  background: rgb(1, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 0, 36, 1) 0%,
+    rgba(48, 9, 121, 1) 41%,
+    rgba(120, 0, 255, 1) 100%
+  );
 }
 
 .title {
-    font-size: 72px;
-    text-align: center;
-    margin: 100px 0 200px;
+  font-size: 72px;
+  text-align: center;
+  margin: 100px 0 200px;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
-#texte, #citation {
-    padding: 0 150px;
+#texte,
+#citation {
+  padding: 0 150px;
 }
 
 .text-citation {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .text {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .text-auteur {
-    padding: 25px 0 150px;
-    font-size: 20px;
+  padding: 25px 0 150px;
+  font-size: 20px;
 }
 
 .title,
 .text-auteur,
 .text-citation,
 #texte {
-    color: cornsilk;
+  color: cornsilk;
 }
 
 #button {
-    margin-top: 100px;
-    font-size: 36px;
-    border-radius: 50px;
-    padding: 5px 20px;
-    cursor: pointer;
-    font-family: "Comic Sans MS", serif;
-    border: none;
-    background: cornsilk;
-    color: rebeccapurple;
+  margin-top: 100px;
+  font-size: 36px;
+  border-radius: 50px;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-family: "Comic Sans MS", serif;
+  border: none;
+  background: cornsilk;
+  color: rebeccapurple;
 }
 
 #button:hover {
-    background: #804dc5;
-    color: cornsilk;
-    animation: bounce 1s;
+  background: #804dc5;
+  color: cornsilk;
+  animation: bounce 1s;
 }
 
 @keyframes bounce {
-    0%, 20%, 60%, 100% {
-        transform: translateY(0);
-    }
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
 
-    40% {
-        transform: translateY(-20px);
-    }
+  40% {
+    transform: translateY(-20px);
+  }
 
-    80% {
-        transform: translateY(-10px);
-    }
+  80% {
+    transform: translateY(-10px);
+  }
 }
